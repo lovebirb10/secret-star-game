@@ -1,0 +1,2 @@
+/* 网页模块加载器：通常不需要修改。 */
+(function(){const cache={};window.__gameModules=window.__gameModules||{};window.__loadGameModule=function load(id){if(cache[id])return cache[id].exports;const m=cache[id]={exports:{}};const factory=window.__gameModules[id];if(!factory)throw new Error('Missing module '+id);factory(function(p){const bits=id.split('/');bits.pop();for(const bit of p.split('/')){if(bit==='..')bits.pop();else if(bit!=='.')bits.push(bit);}return load(bits.join('/').replace(/\.js$/,''));},m,m.exports);return m.exports;};})();
