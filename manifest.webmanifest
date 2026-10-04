@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "嫂子模拟器 · 秘密练习簿",
+  "short_name": "嫂子模拟器",
+  "description": "把恋爱藏进手机里：发微光、赴约、回短信。五天之后，你会把自己留在哪个结局？",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FDF2F5",
+  "theme_color": "#FDF2F5",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
